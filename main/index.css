@@ -135,7 +135,9 @@ body{
 }
 spline-viewer {
     height:100vh ! important;
+    pointer-events: none;
 }
+
 
 @media (max-width: 991px){
     html{
