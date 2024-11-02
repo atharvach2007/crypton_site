@@ -111,7 +111,6 @@ header:after {
       rgba(0, 119, 255, 0.041),
       transparent 40%
     );
-    z-index: 3;
   }
   
   .card::after {  
