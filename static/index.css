@@ -133,6 +133,9 @@ body{
 .header .search-form label:hover{
     color: coral;
 }
+spline-viewer {
+    height:100vh ! important;
+}
 
 @media (max-width: 991px){
     html{
