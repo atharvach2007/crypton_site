@@ -13,7 +13,27 @@
     padding: 0px;
     font-family: "outfit";
   }
-  
+  .btn {
+    width: 450px;
+    background-color: #5038a8;
+    border: none;
+    outline: none;
+    height: fit-content;
+    padding: 10px 0;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1rem;
+  }
   
   header{
   display: flex;
@@ -91,6 +111,7 @@ header:after {
       rgba(0, 119, 255, 0.041),
       transparent 40%
     );
+    z-index: 3;
   }
   
   .card::after {  
@@ -115,6 +136,32 @@ header:after {
     align-items: center;
   }
   
+  .btn {
+    width: 450px;
+    background-color: #5038a8;
+    border: none;
+    outline: none;
+    height: fit-content;
+    padding: 10px 0;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #381b5e;
+  }
+
   /* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
   h2, h4, span {
     color: rgb(240, 240, 240);
@@ -165,37 +212,8 @@ header:after {
     margin-top: 8px;
   }
   
-  .btn {
-    width: 450px;
-    background-color: #5038a8;
-    border: none;
-    outline: none;
-    height: fit-content;
-    padding: 10px 0;
-    border-radius: 49px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 10px 0;
-    cursor: pointer;
-    transition: 0.5s;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.1rem;
-    gap: 1rem;
-  }
-  
-  .btn:hover {
-    background-color: #381b5e;
-  }
 
   h1{
     text-align: center;
     font-size: 2.8rem;
-}
-
-.link{
-  z-index: 300;
 }
