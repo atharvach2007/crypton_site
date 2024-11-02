@@ -6,6 +6,13 @@
     <title>Home page</title>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.35/build/spline-viewer.js" async></script>
 <spline-viewer url="https://prod.spline.design/FCZGlmJ0Cei3gYfs/scene.splinecode"></spline-viewer>
+<script>
+    const splineViewer = document.getElementById('spline-viewer');
+    splineViewer.addEventListener('mousedown', (e) => e.preventDefault());
+    splineViewer.addEventListener('touchstart', (e) => e.preventDefault());
+    splineViewer.addEventListener('pointerdown', (e) => e.preventDefault());
+    splineViewer.addEventListener('dragstart', (e) => e.preventDefault());
+</script>
     <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/index.css">
 </head>
