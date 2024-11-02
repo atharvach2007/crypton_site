@@ -135,7 +135,12 @@ body{
 }
 spline-viewer {
     height:100vh ! important;
+    pointer-events: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+    overflow: hidden;
 }
+
 
 @media (max-width: 991px){
     html{
